@@ -1,0 +1,134 @@
+:host {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: block;
+  transition:
+    background-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+:host(.is-scrolled) {
+  background: color-mix(in srgb, var(--bg) 85%, transparent);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 1px 0 var(--line);
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  height: 68px;
+}
+
+.brand {
+  font: 600 1.375rem/1 var(--font-display);
+  text-decoration: none;
+
+  span {
+    color: var(--accent);
+  }
+}
+
+.nav {
+  display: flex;
+  gap: 32px;
+
+  a {
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: var(--ink-soft);
+    text-decoration: none;
+    transition: color 0.2s;
+
+    &:hover {
+      color: var(--accent);
+    }
+  }
+}
+
+.actions {
+  display: flex;
+  gap: 4px;
+}
+
+.icon-btn {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--ink);
+  cursor: pointer;
+
+  &:hover {
+    background: var(--surface-2);
+  }
+
+  app-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.menu-btn {
+  display: none;
+}
+
+@media (max-width: 720px) {
+  .menu-btn {
+    display: grid;
+  }
+
+  .nav {
+    position: absolute;
+    top: 68px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    gap: 0;
+    padding: 8px var(--gutter) 16px;
+    background: var(--bg);
+    box-shadow: 0 1px 0 var(--line);
+    display: none;
+
+    &.is-open {
+      display: flex;
+    }
+
+    a {
+      padding: 12px 0;
+      font-size: 1.0625rem;
+    }
+  }
+}
+
+.lang-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  height: 40px;
+  padding: 0 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--ink-soft);
+  font: 700 0.8125rem/1 var(--font-body);
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  transition:
+    border-color 0.2s,
+    color 0.2s;
+
+  &:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  .is-current {
+    color: var(--ink);
+  }
+}

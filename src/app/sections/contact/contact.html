@@ -1,0 +1,21 @@
+<section id="contact" class="section" aria-labelledby="contact-title">
+  <div class="container">
+    <div class="panel" appReveal>
+      <span class="eyebrow" i18n="@@contact.eyebrow">Contacto</span>
+      <h2 id="contact-title" i18n="@@contact.title">¿Te llama la atención mi perfil?</h2>
+      <p i18n="@@contact.text">
+        Estaré encantada de recibir nuevas oportunidades profesionales para poder seguir creciendo como desarrolladora.
+      </p>
+      <div class="ctas">
+        <a class="btn btn--light" [href]="'mailto:' + profile.email">
+          <app-icon name="mail" />
+          {{ profile.email }}
+        </a>
+        <a class="btn btn--outline" [href]="profile.linkedin" target="_blank" rel="noopener">
+          <app-icon name="linkedin" />
+          LinkedIn
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

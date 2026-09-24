@@ -1,0 +1,50 @@
+.panel {
+  padding: clamp(40px, 8vw, 88px) clamp(24px, 6vw, 72px);
+  border-radius: calc(var(--radius) * 1.5);
+  background:
+    radial-gradient(
+      circle at 100% 0%,
+      color-mix(in srgb, var(--highlight) 45%, transparent),
+      transparent 55%
+    ),
+    #2f5249;
+  color: #fff;
+  text-align: center;
+
+  .eyebrow {
+    color: #cfe5de;
+  }
+
+  h2 {
+    font-size: clamp(2rem, 5.4vw, 3.5rem);
+    margin-bottom: 16px;
+  }
+
+  p {
+    max-width: 48ch;
+    margin: 0 auto 32px;
+    color: #d9e6e2;
+  }
+}
+
+.ctas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.btn--light {
+  background: #fff;
+  color: #2f5249;
+  overflow-wrap: anywhere;
+}
+
+.btn--outline {
+  border-color: rgb(255 255 255 / 45%);
+  color: #fff;
+
+  &:hover {
+    border-color: #fff;
+  }
+}

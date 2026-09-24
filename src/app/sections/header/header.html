@@ -1,0 +1,48 @@
+<div class="container bar">
+  <a class="brand" href="#top" (click)="closeMenu()">Noelia<span>.</span></a>
+
+  <nav
+    id="site-nav"
+    class="nav"
+    [class.is-open]="menuOpen()"
+    aria-label="Principal"
+    i18n-aria-label="@@nav.ariaLabel"
+  >
+    @for (link of links; track link.id) {
+      <a [href]="'#' + link.id" (click)="closeMenu()">{{ link.label }}</a>
+    }
+  </nav>
+
+  <div class="actions">
+    <button
+      type="button"
+      class="lang-btn"
+      (click)="switchLanguage()"
+      title="Read in English"
+      i18n-title="@@lang.switchTitle"
+    >
+      <span [class.is-current]="locale === 'es'">ES</span>
+      <span aria-hidden="true">/</span>
+      <span [class.is-current]="locale === 'en'">EN</span>
+    </button>
+    <button
+      type="button"
+      class="icon-btn"
+      (click)="theme.toggle()"
+      [attr.aria-label]="theme.theme() === 'dark' ? lightLabel : darkLabel"
+    >
+      <app-icon [name]="theme.theme() === 'dark' ? 'sun' : 'moon'" />
+    </button>
+    <button
+      type="button"
+      class="icon-btn menu-btn"
+      (click)="menuOpen.set(!menuOpen())"
+      [attr.aria-expanded]="menuOpen()"
+      aria-controls="site-nav"
+      aria-label="Menú"
+      i18n-aria-label="@@nav.menu"
+    >
+      <app-icon [name]="menuOpen() ? 'close' : 'menu'" />
+    </button>
+  </div>
+</div>

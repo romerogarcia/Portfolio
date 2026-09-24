@@ -1,0 +1,40 @@
+<section id="skills" class="section" aria-labelledby="skills-title">
+  <div class="container">
+    <div class="head" appReveal>
+      <div>
+        <span class="eyebrow" i18n="@@skills.eyebrow">Skills</span>
+        <h2 id="skills-title" class="section-title" i18n="@@skills.title">Stack tecnológico</h2>
+        <p class="section-lead" i18n="@@skills.lead">
+          Las tecnologías y herramientas con las que trabajo cada día.
+        </p>
+      </div>
+    </div>
+
+    <div class="stack">
+      @for (category of stack; track category.id; let i = $index) {
+        <section
+          class="category"
+          appReveal
+          [revealDelay]="(i % 3) * 60"
+          [attr.aria-labelledby]="'stack-' + category.id"
+        >
+          <h3 [id]="'stack-' + category.id">{{ category.title }}</h3>
+          <ul>
+            @for (item of category.items; track item.name) {
+              <li>
+                @if (item.logo) {
+                  <svg class="logo" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <path [attr.d]="item.logo" />
+                  </svg>
+                } @else if (item.icon) {
+                  <app-icon class="logo" [name]="item.icon" />
+                }
+                <span>{{ item.name }}</span>
+              </li>
+            }
+          </ul>
+        </section>
+      }
+    </div>
+  </div>
+</section>

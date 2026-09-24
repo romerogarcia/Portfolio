@@ -1,74 +1,78 @@
-# Portfolio-Noelia
+# Noelia Romero · Portfolio
 
-# Getting Started with Create React App
+Portfolio personal de **Noelia Romero**, desarrolladora frontend. Una web de una sola página con mis proyectos, skills y datos de contacto, en **español** e **inglés**.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Web:** https://romerogarcia.github.io/Portfolio/ · [English version](https://romerogarcia.github.io/Portfolio/en/)
 
-## Available Scripts
+## Tecnologías
 
-In the project directory, you can run:
+- [Angular 22](https://angular.dev): componentes standalone, signals y el nuevo control flow (`@for`, `@if`)
+- Internacionalización con [`@angular/localize`](https://angular.dev/guide/i18n) (i18n oficial de Angular)
+- SCSS con variables CSS para los temas claro y oscuro
+- Sin framework de UI: maquetación con CSS Grid y Flexbox
+- Vitest para los tests unitarios
+- GitHub Actions + GitHub Pages para el despliegue
 
-### `npm start`
+## Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Diseño responsive, de móvil a escritorio
+- Español / inglés con un botón en la cabecera
+- Tema claro y oscuro (sigue el del sistema y recuerda tu elección)
+- Proyectos filtrables por tecnología
+- Animaciones al hacer scroll que respetan `prefers-reduced-motion`
+- Imágenes WebP optimizadas con carga diferida
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Cómo arrancarlo
 
-### `npm test`
+Requisitos: Node.js `^22.22.3`, `^24.15.0` o `>=26`.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+npm install
+npm start          # los dos idiomas: http://localhost:4200/ (español) y /en/ (inglés)
+npm run dev        # solo español, con recarga automática (más rápido para maquetar)
+npm run dev:en     # solo inglés, con recarga automática
+npm test           # tests unitarios
+npm run build      # build de producción de los dos idiomas en dist/portfolio/browser
+```
 
-### `npm run build`
+> `ng serve` (`npm run dev`) solo puede servir un idioma a la vez, así que ahí el botón ES/EN no cambia de idioma. Usa `npm start` para probar el botón: compila los dos idiomas y los sirve igual que GitHub Pages. Tras guardar un cambio, espera a que termine la compilación y recarga la página.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Idiomas (i18n)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+El español es el idioma de origen: los textos están directamente en las plantillas, marcados con `i18n="@@id"` (o con `` $localize`:@@id:texto` `` en TypeScript). El build genera dos versiones de la web:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+| Idioma  | Ruta    | Traducciones                  |
+| ------- | ------- | ----------------------------- |
+| Español | `/`     | textos de origen              |
+| Inglés  | `/en/`  | `src/locale/messages.en.xlf`  |
 
-### `npm run eject`
+Para cambiar o añadir un texto:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Edita el texto en español en la plantilla y mantén su `@@id`.
+2. Ejecuta `npm run extract-i18n` para regenerar `src/locale/messages.xlf`.
+3. Añade o actualiza el `<target>` correspondiente en `src/locale/messages.en.xlf`.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Estructura
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+src/
+├── app/
+│   ├── data/          # contenido: proyectos, skills y perfil
+│   ├── sections/      # un componente por sección de la página
+│   └── shared/        # iconos, directiva de animación y servicio de tema
+├── locale/            # archivos de traducción (.xlf)
+├── index.html
+└── styles.scss        # variables de diseño y estilos globales
+public/                # imágenes, favicon y currículum
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Para añadir o editar un proyecto, modifica `src/app/data/projects.ts` y pon la captura en `public/images/`.
 
-## Learn More
+## Despliegue
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Cada push a `main` compila la web y la publica en GitHub Pages con `.github/workflows/deploy.yml`.
+Solo hay que configurarlo una vez: en el repositorio, ve a **Settings → Pages** y en **Source** elige **GitHub Actions**.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Licencia
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-https://romerogarcia.github.io/Portfolio-Noelia/
+[MIT](LICENSE.md)

@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="es" trgLang="en">
+  <file id="ngi18n" original="ng.template">
+    <unit id="a11y.skip">
+      <notes>
+        <note category="location">src/app/app.ts:16,17</note>
+      </notes>
+      <segment>
+        <source>Saltar al contenido</source>
+        <target>Skip to content</target>
+      </segment>
+    </unit>
+    <unit id="meta.title">
+      <notes>
+        <note category="location">src/app/app.ts:32</note>
+      </notes>
+      <segment>
+        <source>Noelia Romero · Desarrolladora Frontend</source>
+        <target>Noelia Romero · Frontend Developer</target>
+      </segment>
+    </unit>
+    <unit id="meta.description">
+      <notes>
+        <note category="location">src/app/app.ts:34</note>
+      </notes>
+      <segment>
+        <source>Portfolio de Noelia Romero, desarrolladora frontend. Proyectos con Angular, React, JavaScript y Sass.</source>
+        <target>Portfolio of Noelia Romero, frontend developer. Projects built with Angular, React, JavaScript and Sass.</target>
+      </segment>
+    </unit>
+    <unit id="profile.role">
+      <notes>
+        <note category="location">src/app/data/profile.ts:3</note>
+      </notes>
+      <segment>
+        <source>Desarrolladora Frontend</source>
+        <target>Frontend Developer</target>
+      </segment>
+    </unit>
+    <unit id="project.waveless.description">
+      <notes>
+        <note category="location">src/app/data/projects.ts:12</note>
+      </notes>
+      <segment>
+        <source>Home de una web de una agencia de viajes con actividades turísticas.</source>
+        <target>Home page for a travel agency website offering tourist activities.</target>
+      </segment>
+    </unit>
+    <unit id="project.starwars.description">
+      <notes>
+        <note category="location">src/app/data/projects.ts:19</note>
+      </notes>
+      <segment>
+        <source>Web construida sobre la API de Star Wars. Tras iniciar sesión o registrarse, se pueden explorar y buscar los planetas de la saga.</source>
+        <target>A website built on the Star Wars API. Users sign in or register to explore and search the planets of the saga.</target>
+      </segment>
+    </unit>
+    <unit id="project.magister.title">
+      <notes>
+        <note category="location">src/app/data/projects.ts:25</note>
+      </notes>
+      <segment>
+        <source>Matrícula Magister</source>
+        <target>Magister Registration</target>
+      </segment>
+    </unit>
+    <unit id="project.magister.description">
+      <notes>
+        <note category="location">src/app/data/projects.ts:26</note>
+      </notes>
+      <segment>
+        <source>Proceso de matrícula para una plataforma educativa, academia especializada en formación online y presencial. Un formulario por pasos maquetado a partir del diseño.</source>
+        <target>Enrolment flow for an education platform, an academy specialised in online and in-person training. A multi-step form built from the design spec.</target>
+      </segment>
+    </unit>
+    <unit id="project.bubble.description">
+      <notes>
+        <note category="location">src/app/data/projects.ts:33</note>
+      </notes>
+      <segment>
+        <source>Web responsive para Bubble, una empresa de venta online de bubble tea.</source>
+        <target>Responsive website for Bubble, a company that sells bubble tea online.</target>
+      </segment>
+    </unit>
+    <unit id="project.owen.description">
+      <notes>
+        <note category="location">src/app/data/projects.ts:40</note>
+      </notes>
+      <segment>
+        <source>Buscador de todas las películas en las que Owen Wilson dice «wow», con filtros por título, año y número de wows.</source>
+        <target>Search engine for every movie in which Owen Wilson says "wow", filterable by title, year and wow count.</target>
+      </segment>
+    </unit>
+    <unit id="project.cards.description">
+      <notes>
+        <note category="location">src/app/data/projects.ts:47</note>
+      </notes>
+      <segment>
+        <source>Generador de tarjetas de visita personalizadas: rellenas tus datos, descargas la tarjeta y la compartes en redes sociales.</source>
+        <target>Generator of personalised business cards: fill in your details, download the card and share it on social media.</target>
+      </segment>
+    </unit>
+    <unit id="project.openspaces.description">
+      <notes>
+        <note category="location">src/app/data/projects.ts:54</note>
+      </notes>
+      <segment>
+        <source>Web responsive para Open Spaces, una tienda online de productos para organizar el hogar.</source>
+        <target>Responsive website for Open Spaces, an online shop for home organisation products.</target>
+      </segment>
+    </unit>
+    <unit id="stack.languages">
+      <notes>
+        <note category="location">src/app/data/stack.ts:21</note>
+      </notes>
+      <segment>
+        <source>Lenguajes</source>
+        <target>Languages</target>
+      </segment>
+    </unit>
+    <unit id="stack.frameworks">
+      <notes>
+        <note category="location">src/app/data/stack.ts:43</note>
+      </notes>
+      <segment>
+        <source>Frameworks y librerías</source>
+        <target>Frameworks &amp; libraries</target>
+      </segment>
+    </unit>
+    <unit id="stack.item.restapis">
+      <notes>
+        <note category="location">src/app/data/stack.ts:58</note>
+      </notes>
+      <segment>
+        <source>APIs REST</source>
+        <target>REST APIs</target>
+      </segment>
+    </unit>
+    <unit id="stack.webcomponents">
+      <notes>
+        <note category="location">src/app/data/stack.ts:63</note>
+      </notes>
+      <segment>
+        <source>Web Components</source>
+        <target>Web Components</target>
+      </segment>
+    </unit>
+    <unit id="stack.styles">
+      <notes>
+        <note category="location">src/app/data/stack.ts:75</note>
+      </notes>
+      <segment>
+        <source>Estilos</source>
+        <target>Styling</target>
+      </segment>
+    </unit>
+    <unit id="stack.a11y">
+      <notes>
+        <note category="location">src/app/data/stack.ts:95</note>
+      </notes>
+      <segment>
+        <source>Accesibilidad</source>
+        <target>Accessibility</target>
+      </segment>
+    </unit>
+    <unit id="stack.item.lighthouseaudits">
+      <notes>
+        <note category="location">src/app/data/stack.ts:99</note>
+      </notes>
+      <segment>
+        <source>Auditorías con Lighthouse</source>
+        <target>Lighthouse audits</target>
+      </segment>
+    </unit>
+    <unit id="stack.testing">
+      <notes>
+        <note category="location">src/app/data/stack.ts:106</note>
+      </notes>
+      <segment>
+        <source>Testing</source>
+        <target>Testing</target>
+      </segment>
+    </unit>
+    <unit id="stack.item.unittesting">
+      <notes>
+        <note category="location">src/app/data/stack.ts:112</note>
+      </notes>
+      <segment>
+        <source>Pruebas unitarias</source>
+        <target>Unit testing</target>
+      </segment>
+    </unit>
+    <unit id="stack.cms">
+      <notes>
+        <note category="location">src/app/data/stack.ts:117</note>
+      </notes>
+      <segment>
+        <source>CMS</source>
+        <target>CMS</target>
+      </segment>
+    </unit>
+    <unit id="stack.tools">
+      <notes>
+        <note category="location">src/app/data/stack.ts:122</note>
+      </notes>
+      <segment>
+        <source>Herramientas</source>
+        <target>Tools</target>
+      </segment>
+    </unit>
+    <unit id="stack.methods">
+      <notes>
+        <note category="location">src/app/data/stack.ts:152</note>
+      </notes>
+      <segment>
+        <source>Metodologías</source>
+        <target>Methodologies</target>
+      </segment>
+    </unit>
+    <unit id="stack.item.agile">
+      <notes>
+        <note category="location">src/app/data/stack.ts:155</note>
+      </notes>
+      <segment>
+        <source>Ágil</source>
+        <target>Agile</target>
+      </segment>
+    </unit>
+    <unit id="stack.ai">
+      <notes>
+        <note category="location">src/app/data/stack.ts:160</note>
+      </notes>
+      <segment>
+        <source>Herramientas de IA</source>
+        <target>AI tools</target>
+      </segment>
+    </unit>
+    <unit id="about.eyebrow">
+      <notes>
+        <note category="location">src/app/sections/about/about.html:4,5</note>
+      </notes>
+      <segment>
+        <source>Sobre mí</source>
+        <target>About me</target>
+      </segment>
+    </unit>
+    <unit id="about.title">
+      <notes>
+        <note category="location">src/app/sections/about/about.html:6,8</note>
+      </notes>
+      <segment>
+        <source> Del Trabajo Social al desarrollo frontend </source>
+        <target>From Social Work to frontend development</target>
+      </segment>
+    </unit>
+    <unit id="about.p1">
+      <notes>
+        <note category="location">src/app/sections/about/about.html:12,14</note>
+      </notes>
+      <segment>
+        <source> Un dato que quizá no esperéis ver en un CV de desarrolladora, antes de dedicarme al mundo IT estudié Trabajo Social. No fue un desvío ni una etapa que quiero esconder, al contrario, creo que es lo que explica cómo trabajo ahora. </source>
+        <target>Here's something you might not expect on a developer's CV: before moving into IT, I studied Social Work. It wasn't a detour or a chapter I want to hide. Quite the opposite: I think it explains how I work today.</target>
+      </segment>
+    </unit>
+    <unit id="about.p2">
+      <notes>
+        <note category="location">src/app/sections/about/about.html:15,17</note>
+      </notes>
+      <segment>
+        <source> Trabajo en equipo, escucho antes de proponer, y me adapto rápido a entornos y personas distintas, algo que en desarrollo se traduce en saltar entre proyectos, stacks o equipos sin perder el ritmo. </source>
+        <target>I'm a team player, I listen before I propose, and I adapt quickly to different environments and people, which in development means switching between projects, stacks or teams without losing momentum.</target>
+      </segment>
+    </unit>
+    <unit id="contact.eyebrow">
+      <notes>
+        <note category="location">src/app/sections/contact/contact.html:4,5</note>
+      </notes>
+      <segment>
+        <source>Contacto</source>
+        <target>Contact</target>
+      </segment>
+    </unit>
+    <unit id="contact.title">
+      <notes>
+        <note category="location">src/app/sections/contact/contact.html:5,6</note>
+      </notes>
+      <segment>
+        <source>¿Te llama la atención mi perfil?</source>
+        <target>Does my profile catch your eye?</target>
+      </segment>
+    </unit>
+    <unit id="contact.text">
+      <notes>
+        <note category="location">src/app/sections/contact/contact.html:7,9</note>
+      </notes>
+      <segment>
+        <source> Estaré encantada de recibir nuevas oportunidades profesionales para poder seguir creciendo como desarrolladora. </source>
+        <target>I'd be delighted to hear about new professional opportunities that help me keep growing as a developer.</target>
+      </segment>
+    </unit>
+    <unit id="footer.copy">
+      <notes>
+        <note category="location">src/app/sections/footer/footer.ts:9,10</note>
+      </notes>
+      <segment>
+        <source>© <ph id="0" equiv="INTERPOLATION" disp="{{ year }}"/> <ph id="1" equiv="INTERPOLATION_1" disp="{{ profile.name }}"/>. Hecho con Angular.</source>
+        <target>© <ph id="0" equiv="INTERPOLATION" disp="{{ year }}"/> <ph id="1" equiv="INTERPOLATION_1" disp="{{ profile.name }}"/>. Built with Angular.</target>
+      </segment>
+    </unit>
+    <unit id="footer.top">
+      <notes>
+        <note category="location">src/app/sections/footer/footer.ts:10,13</note>
+      </notes>
+      <segment>
+        <source>Volver arriba ↑</source>
+        <target>Back to top ↑</target>
+      </segment>
+    </unit>
+    <unit id="nav.ariaLabel">
+      <notes>
+        <note category="location">src/app/sections/header/header.html:8,9</note>
+      </notes>
+      <segment>
+        <source>Principal</source>
+        <target>Main</target>
+      </segment>
+    </unit>
+    <unit id="lang.switchTitle">
+      <notes>
+        <note category="location">src/app/sections/header/header.html:21,22</note>
+      </notes>
+      <segment>
+        <source>Read in English</source>
+        <target>Leer en español</target>
+      </segment>
+    </unit>
+    <unit id="nav.menu">
+      <notes>
+        <note category="location">src/app/sections/header/header.html:43</note>
+      </notes>
+      <segment>
+        <source>Menú</source>
+        <target>Menu</target>
+      </segment>
+    </unit>
+    <unit id="nav.about">
+      <notes>
+        <note category="location">src/app/sections/header/header.ts:27</note>
+      </notes>
+      <segment>
+        <source>Sobre mí</source>
+        <target>About</target>
+      </segment>
+    </unit>
+    <unit id="nav.projects">
+      <notes>
+        <note category="location">src/app/sections/header/header.ts:28</note>
+      </notes>
+      <segment>
+        <source>Proyectos</source>
+        <target>Projects</target>
+      </segment>
+    </unit>
+    <unit id="nav.skills">
+      <notes>
+        <note category="location">src/app/sections/header/header.ts:29</note>
+      </notes>
+      <segment>
+        <source>Skills</source>
+        <target>Skills</target>
+      </segment>
+    </unit>
+    <unit id="nav.contact">
+      <notes>
+        <note category="location">src/app/sections/header/header.ts:30</note>
+      </notes>
+      <segment>
+        <source>Contacto</source>
+        <target>Contact</target>
+      </segment>
+    </unit>
+    <unit id="theme.toLight">
+      <notes>
+        <note category="location">src/app/sections/header/header.ts:33</note>
+      </notes>
+      <segment>
+        <source>Cambiar a tema claro</source>
+        <target>Switch to light theme</target>
+      </segment>
+    </unit>
+    <unit id="theme.toDark">
+      <notes>
+        <note category="location">src/app/sections/header/header.ts:34</note>
+      </notes>
+      <segment>
+        <source>Cambiar a tema oscuro</source>
+        <target>Switch to dark theme</target>
+      </segment>
+    </unit>
+    <unit id="hero.title">
+      <notes>
+        <note category="location">src/app/sections/hero/hero.html:4,6</note>
+      </notes>
+      <segment>
+        <source> Hola, soy <ph id="0" equiv="INTERPOLATION" disp="{{ profile.name }}"/>, <pc id="1" equivStart="START_EMPHASISED_TEXT" equivEnd="CLOSE_EMPHASISED_TEXT" type="fmt" dispStart="&lt;em&gt;" dispEnd="&lt;/em&gt;">Frontend Developer</pc>. </source>
+        <target>Hi, I'm <ph id="0" equiv="INTERPOLATION" disp="{{ profile.name }}"/>, <pc id="1" equivStart="START_EMPHASISED_TEXT" equivEnd="CLOSE_EMPHASISED_TEXT" type="fmt" dispStart="&lt;em&gt;" dispEnd="&lt;/em&gt;">Frontend Developer</pc>.</target>
+      </segment>
+    </unit>
+    <unit id="hero.lead">
+      <notes>
+        <note category="location">src/app/sections/hero/hero.html:7,10</note>
+      </notes>
+      <segment>
+        <source> Con más de 4 años de experiencia focalizada en el desarrollo de Componentes Web con Angular y Adobe Experience Manager. Orientada a la creación de interfaces escalables, mantenibles y centradas en el usuario. </source>
+        <target>With over 4 years of experience focused on building Web Components with Angular and Adobe Experience Manager. Committed to creating scalable, maintainable, user-centred interfaces.</target>
+      </segment>
+    </unit>
+    <unit id="hero.ctaProjects">
+      <notes>
+        <note category="location">src/app/sections/hero/hero.html:12,13</note>
+      </notes>
+      <segment>
+        <source>Ver proyectos</source>
+        <target>See my work</target>
+      </segment>
+    </unit>
+    <unit id="hero.ctaResume">
+      <notes>
+        <note category="location">src/app/sections/hero/hero.html:16,17</note>
+      </notes>
+      <segment>
+        <source>Currículum</source>
+        <target>Resume</target>
+      </segment>
+    </unit>
+    <unit id="social.email">
+      <notes>
+        <note category="location">src/app/sections/hero/hero.html:35,36</note>
+      </notes>
+      <segment>
+        <source>Correo electrónico</source>
+        <target>Email</target>
+      </segment>
+    </unit>
+    <unit id="hero.portraitAlt">
+      <notes>
+        <note category="location">src/app/sections/hero/hero.html:49,50</note>
+      </notes>
+      <segment>
+        <source>Retrato de Noelia Romero</source>
+        <target>Portrait of Noelia Romero</target>
+      </segment>
+    </unit>
+    <unit id="projects.eyebrow">
+      <notes>
+        <note category="location">src/app/sections/projects/projects.html:5,6</note>
+      </notes>
+      <segment>
+        <source>Trabajos seleccionados</source>
+        <target>Selected work</target>
+      </segment>
+    </unit>
+    <unit id="projects.title">
+      <notes>
+        <note category="location">src/app/sections/projects/projects.html:6,9</note>
+      </notes>
+      <segment>
+        <source>Proyectos</source>
+        <target>Projects</target>
+      </segment>
+    </unit>
+    <unit id="projects.filterLabel">
+      <notes>
+        <note category="location">src/app/sections/projects/projects.html:12,13</note>
+      </notes>
+      <segment>
+        <source>Filtrar proyectos por tecnología</source>
+        <target>Filter projects by technology</target>
+      </segment>
+    </unit>
+    <unit id="projects.techLabel">
+      <notes>
+        <note category="location">src/app/sections/projects/projects.html:45</note>
+      </notes>
+      <segment>
+        <source>Tecnologías</source>
+        <target>Technologies</target>
+      </segment>
+    </unit>
+    <unit id="projects.code">
+      <notes>
+        <note category="location">src/app/sections/projects/projects.html:52,53</note>
+      </notes>
+      <segment>
+        <source>Ver en GitHub</source>
+        <target>View on GitHub</target>
+      </segment>
+    </unit>
+    <unit id="projects.ofProject">
+      <notes>
+        <note category="location">src/app/sections/projects/projects.html:54,55</note>
+      </notes>
+      <segment>
+        <source> de <ph id="0" equiv="INTERPOLATION" disp="{{ project.title }}"/> </source>
+        <target>of <ph id="0" equiv="INTERPOLATION" disp="{{ project.title }}"/></target>
+      </segment>
+    </unit>
+    <unit id="projects.empty">
+      <notes>
+        <note category="location">src/app/sections/projects/projects.html:62,65</note>
+      </notes>
+      <segment>
+        <source>Todavía no hay proyectos con esta tecnología.</source>
+        <target>No projects with this technology yet.</target>
+      </segment>
+    </unit>
+    <unit id="projects.filter.all">
+      <notes>
+        <note category="location">src/app/sections/projects/projects.ts:15</note>
+      </notes>
+      <segment>
+        <source>Todos</source>
+        <target>All</target>
+      </segment>
+    </unit>
+    <unit id="skills.eyebrow">
+      <notes>
+        <note category="location">src/app/sections/skills/skills.html:5,6</note>
+      </notes>
+      <segment>
+        <source>Skills</source>
+        <target>Skills</target>
+      </segment>
+    </unit>
+    <unit id="skills.title">
+      <notes>
+        <note category="location">src/app/sections/skills/skills.html:6,7</note>
+      </notes>
+      <segment>
+        <source>Stack tecnológico</source>
+        <target>Tech stack</target>
+      </segment>
+    </unit>
+    <unit id="skills.lead">
+      <notes>
+        <note category="location">src/app/sections/skills/skills.html:8,10</note>
+      </notes>
+      <segment>
+        <source> Las tecnologías y herramientas con las que trabajo cada día. </source>
+        <target>The technologies and tools I work with every day.</target>
+      </segment>
+    </unit>
+  </file>
+</xliff>

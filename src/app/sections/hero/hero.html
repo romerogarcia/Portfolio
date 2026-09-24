@@ -1,0 +1,54 @@
+<section class="hero container" aria-labelledby="hero-title">
+  <div class="copy">
+    <h1 id="hero-title" appReveal [revealDelay]="100" i18n="@@hero.title">
+      Hola, soy {{ profile.name }}, <em>Frontend Developer</em>.
+    </h1>
+    <p class="lead" appReveal [revealDelay]="200" i18n="@@hero.lead">
+      Con más de 4 años de experiencia focalizada en el desarrollo de Componentes Web con Angular y Adobe Experience Manager. Orientada a la creación de interfaces escalables, mantenibles y centradas en el usuario.
+    </p>
+
+    <div class="ctas" appReveal [revealDelay]="300">
+      <a class="btn btn--primary" href="#projects">
+        <ng-container i18n="@@hero.ctaProjects">Ver proyectos</ng-container>
+        <app-icon name="arrow-down" />
+      </a>
+      <a class="btn btn--ghost" [href]="profile.resume" target="_blank" rel="noopener">
+        <ng-container i18n="@@hero.ctaResume">Currículum</ng-container>
+        <app-icon name="download" />
+      </a>
+    </div>
+
+    <ul class="socials" appReveal [revealDelay]="400">
+      <li>
+        <a [href]="profile.github" target="_blank" rel="noopener" aria-label="GitHub">
+          <app-icon name="github" />
+        </a>
+      </li>
+      <li>
+        <a [href]="profile.linkedin" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <app-icon name="linkedin" />
+        </a>
+      </li>
+      <li>
+        <a
+          [href]="'mailto:' + profile.email"
+          aria-label="Correo electrónico"
+          i18n-aria-label="@@social.email"
+        >
+          <app-icon name="mail" />
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="portrait" appReveal [revealDelay]="200">
+    <img
+      src="images/profile.webp"
+      width="600"
+      height="600"
+      alt="Retrato de Noelia Romero"
+      i18n-alt="@@hero.portraitAlt"
+      fetchpriority="high"
+    />
+  </div>
+</section>

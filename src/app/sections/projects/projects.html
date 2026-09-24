@@ -1,0 +1,66 @@
+<section id="projects" class="section" aria-labelledby="projects-title">
+  <div class="container">
+    <header class="head" appReveal>
+      <div>
+        <span class="eyebrow" i18n="@@projects.eyebrow">Trabajos seleccionados</span>
+        <h2 id="projects-title" class="section-title" i18n="@@projects.title">Proyectos</h2>
+      </div>
+
+      <div
+        class="filters"
+        role="group"
+        aria-label="Filtrar proyectos por tecnología"
+        i18n-aria-label="@@projects.filterLabel"
+      >
+        @for (filter of filters; track filter.value) {
+          <button
+            type="button"
+            class="chip"
+            [class.is-active]="active() === filter.value"
+            [attr.aria-pressed]="active() === filter.value"
+            (click)="active.set(filter.value)"
+          >
+            {{ filter.label }}
+          </button>
+        }
+      </div>
+    </header>
+
+    <ul class="grid">
+      @for (project of visible(); track project.title; let i = $index) {
+        <li class="card" appReveal [revealDelay]="(i % 2) * 120">
+          <div class="thumb">
+            <img
+              [src]="project.image"
+              alt=""
+              loading="lazy"
+              decoding="async"
+              width="1200"
+              height="700"
+            />
+          </div>
+          <div class="body">
+            <h3>{{ project.title }}</h3>
+            <p>{{ project.description }}</p>
+            <ul class="tags" aria-label="Tecnologías" i18n-aria-label="@@projects.techLabel">
+              @for (tag of project.tech; track tag) {
+                <li>{{ tag }}</li>
+              }
+            </ul>
+            <div class="links">
+              <a class="btn btn--primary" [href]="project.codeUrl" target="_blank" rel="noopener">
+                <ng-container i18n="@@projects.code">Ver en GitHub</ng-container>
+                <span class="visually-hidden" i18n="@@projects.ofProject">
+                  de {{ project.title }}
+                </span>
+                <app-icon name="github" />
+              </a>
+            </div>
+          </div>
+        </li>
+      } @empty {
+        <li class="empty" i18n="@@projects.empty">Todavía no hay proyectos con esta tecnología.</li>
+      }
+    </ul>
+  </div>
+</section>
