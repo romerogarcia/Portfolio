@@ -9,10 +9,10 @@ export interface Project {
 export const PROJECTS: Project[] = [
   {
     title: 'Waveless-web',
-    description: $localize`:@@project.waveless.description:Home de una web de una agencia de viajes con actividades turísticas.`,
+    description: $localize`:@@project.waveless.description: Web de una agencia de viajes de aventura por Asia, construida como una app **Angular 20** con rutas, componentes reutilizables, accesibilidad y signals para todo el estado.`,
     image: 'images/waveless.webp',
     tech: ['Angular', 'TypeScript', 'Sass', 'Responsive'],
-    codeUrl: 'https://github.com/romerogarcia/prueba-tecnica-avoris',
+    codeUrl: 'https://github.com/romerogarcia/Waveless-web',
   },
   {
     title: 'Star Wars Planets',
