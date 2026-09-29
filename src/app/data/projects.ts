@@ -9,7 +9,7 @@ export interface Project {
 export const PROJECTS: Project[] = [
   {
     title: 'Waveless-web',
-    description: $localize`:@@project.waveless.description: Web de una agencia de viajes de aventura por Asia, construida como una app **Angular 20** con rutas, componentes reutilizables, accesibilidad y signals para todo el estado.`,
+    description: $localize`:@@project.waveless.description: Web de una agencia de viajes de aventura por Asia, construida como una app Angular 20 con rutas, componentes reutilizables, accesibilidad y signals para todo el estado.`,
     image: 'images/waveless.webp',
     tech: ['Angular', 'TypeScript', 'Sass', 'Responsive'],
     codeUrl: 'https://github.com/romerogarcia/Waveless-web',
@@ -18,7 +18,7 @@ export const PROJECTS: Project[] = [
     title: 'Star Wars Planets',
     description: $localize`:@@project.starwars.description:Web construida sobre la API de Star Wars. Tras iniciar sesión o registrarse, se pueden explorar y buscar los planetas de la saga.`,
     image: 'images/starwars.webp',
-    tech: ['React', 'JavaScript', 'SCSS', 'Bootstrap', 'API'],
+    tech: ['Angular', 'JavaScript', 'SCSS', 'Bootstrap', 'API'],
     codeUrl: 'https://github.com/romerogarcia/StarWars-Planets',
   },
   {
