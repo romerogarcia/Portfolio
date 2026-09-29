@@ -2,6 +2,7 @@ import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 import { About } from './sections/about/about';
 import { Contact } from './sections/contact/contact';
+import { Experience } from './sections/experience/experience';
 import { Footer } from './sections/footer/footer';
 import { Header } from './sections/header/header';
 import { Hero } from './sections/hero/hero';
@@ -10,7 +11,7 @@ import { Skills } from './sections/skills/skills';
 
 @Component({
   selector: 'app-root',
-  imports: [Header, Hero, About, Projects, Skills, Contact, Footer],
+  imports: [Header, Hero, About, Experience, Projects, Skills, Contact, Footer],
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
     <a class="skip-link" href="#main" i18n="@@a11y.skip">Saltar al contenido</a>
@@ -19,6 +20,7 @@ import { Skills } from './sections/skills/skills';
     <main id="main">
       <app-hero />
       <app-about />
+      <app-experience />
       <app-projects />
       <app-skills />
       <app-contact />

@@ -25,6 +25,7 @@ export class Header {
 
   protected readonly links = [
     { id: 'about', label: $localize`:@@nav.about:Sobre mí` },
+    { id: 'experience', label: $localize`:@@nav.experience:Experiencia` },
     { id: 'projects', label: $localize`:@@nav.projects:Proyectos` },
     { id: 'skills', label: $localize`:@@nav.skills:Skills` },
     { id: 'contact', label: $localize`:@@nav.contact:Contacto` },

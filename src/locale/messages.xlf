@@ -3,7 +3,7 @@
   <file id="ngi18n" original="ng.template">
     <unit id="a11y.skip">
       <notes>
-        <note category="location">src/app/app.ts:16,17</note>
+        <note category="location">src/app/app.ts:17,18</note>
       </notes>
       <segment>
         <source>Saltar al contenido</source>
@@ -11,7 +11,7 @@
     </unit>
     <unit id="meta.title">
       <notes>
-        <note category="location">src/app/app.ts:32</note>
+        <note category="location">src/app/app.ts:34</note>
       </notes>
       <segment>
         <source>Noelia Romero · Desarrolladora Frontend</source>
@@ -19,10 +19,146 @@
     </unit>
     <unit id="meta.description">
       <notes>
-        <note category="location">src/app/app.ts:34</note>
+        <note category="location">src/app/app.ts:36</note>
       </notes>
       <segment>
         <source>Portfolio de Noelia Romero, desarrolladora frontend. Proyectos con Angular, React, JavaScript y Sass.</source>
+      </segment>
+    </unit>
+    <unit id="exp.vass.role">
+      <notes>
+        <note category="location">src/app/data/experience.ts:16</note>
+      </notes>
+      <segment>
+        <source>Desarrolladora Frontend</source>
+      </segment>
+    </unit>
+    <unit id="exp.vass.period">
+      <notes>
+        <note category="location">src/app/data/experience.ts:18</note>
+      </notes>
+      <segment>
+        <source>Oct 2023 – Sep 2026</source>
+      </segment>
+    </unit>
+    <unit id="exp.vass.summary">
+      <notes>
+        <note category="location">src/app/data/experience.ts:19</note>
+      </notes>
+      <segment>
+        <source>Mi etapa más larga y en la que más he crecido. He trabajado en proyectos de banca para el Banco de España y Unicaja, y para clientes de otros sectores como Mapfre y Repsol, siempre con Angular, Adobe Experience Manager y la accesibilidad en el centro.</source>
+      </segment>
+    </unit>
+    <unit id="exp.vass.h1">
+      <notes>
+        <note category="location">src/app/data/experience.ts:27</note>
+      </notes>
+      <segment>
+        <source>He creado, mantenido y hecho evolucionar componentes en Angular (v16–v20) con Angular Material, dentro de un monorepo Nx en el que también ayudé a definir la arquitectura y los límites entre librerías.</source>
+      </segment>
+    </unit>
+    <unit id="exp.vass.h2">
+      <notes>
+        <note category="location">src/app/data/experience.ts:28</note>
+      </notes>
+      <segment>
+        <source>He revisado la accesibilidad de componentes e interfaces para auditorías y demos con cliente, asegurando que cumplen WCAG 2.2 (AA).</source>
+      </segment>
+    </unit>
+    <unit id="exp.vass.h3">
+      <notes>
+        <note category="location">src/app/data/experience.ts:29</note>
+      </notes>
+      <segment>
+        <source>Implementé la accesibilidad desde cero en todos los componentes de la web de un cliente bancario.</source>
+      </segment>
+    </unit>
+    <unit id="exp.vass.h4">
+      <notes>
+        <note category="location">src/app/data/experience.ts:30</note>
+      </notes>
+      <segment>
+        <source>He extendido y personalizado los Core Components de Adobe Experience Manager (AEM).</source>
+      </segment>
+    </unit>
+    <unit id="exp.vass.h5">
+      <notes>
+        <note category="location">src/app/data/experience.ts:31</note>
+      </notes>
+      <segment>
+        <source>Desarrollé de principio a fin una web nueva para un cliente inmobiliario con Angular y AEM: componentes, páginas y toda la lógica.</source>
+      </segment>
+    </unit>
+    <unit id="exp.vass.h7">
+      <notes>
+        <note category="location">src/app/data/experience.ts:32</note>
+      </notes>
+      <segment>
+        <source>He colaborado de cerca con el equipo de backend, trabajando también con Java y bases de datos para integrar el front con los servicios.</source>
+      </segment>
+    </unit>
+    <unit id="exp.vass.h6">
+      <notes>
+        <note category="location">src/app/data/experience.ts:33</note>
+      </notes>
+      <segment>
+        <source>He pasado diseños de Figma a código siguiendo BEM y Atomic Design, y he localizado y resuelto errores en los entornos del cliente.</source>
+      </segment>
+    </unit>
+    <unit id="exp.ancert.role">
+      <notes>
+        <note category="location">src/app/data/experience.ts:39</note>
+      </notes>
+      <segment>
+        <source>Desarrolladora Frontend y maquetadora web</source>
+      </segment>
+    </unit>
+    <unit id="exp.ancert.period">
+      <notes>
+        <note category="location">src/app/data/experience.ts:41</note>
+      </notes>
+      <segment>
+        <source>Sep 2022 – Oct 2023</source>
+      </segment>
+    </unit>
+    <unit id="exp.ancert.summary">
+      <notes>
+        <note category="location">src/app/data/experience.ts:42</note>
+      </notes>
+      <segment>
+        <source>Mi primer trabajo como desarrolladora, justo al salir del bootcamp de Adalab. Aquí descubrí lo mucho que me gustan los componentes reutilizables y la accesibilidad.</source>
+      </segment>
+    </unit>
+    <unit id="exp.ancert.h1">
+      <notes>
+        <note category="location">src/app/data/experience.ts:44</note>
+      </notes>
+      <segment>
+        <source>Participé en la creación de la librería de componentes del Portal Notarial del Ciudadano: maquetación, desarrollo y accesibilidad de cada pieza.</source>
+      </segment>
+    </unit>
+    <unit id="exp.ancert.h2">
+      <notes>
+        <note category="location">src/app/data/experience.ts:45</note>
+      </notes>
+      <segment>
+        <source>Trasladé los diseños de Figma a interfaces funcionales y responsive con HTML, Sass, Flexbox, CSS Grid, Tailwind y Bootstrap.</source>
+      </segment>
+    </unit>
+    <unit id="exp.ancert.h3">
+      <notes>
+        <note category="location">src/app/data/experience.ts:46</note>
+      </notes>
+      <segment>
+        <source>Revisé la accesibilidad de la web (WCAG 2.2 AA) y corregí errores y bugs de las interfaces, también durante el rediseño completo del portal.</source>
+      </segment>
+    </unit>
+    <unit id="exp.ancert.h4">
+      <notes>
+        <note category="location">src/app/data/experience.ts:47</note>
+      </notes>
+      <segment>
+        <source>Creé e integré componentes en React y Liferay, y maqueté emails responsive.</source>
       </segment>
     </unit>
     <unit id="profile.role">
@@ -73,17 +209,9 @@
         <source>Web responsive para Bubble, una empresa de venta online de bubble tea.</source>
       </segment>
     </unit>
-    <unit id="project.owen.description">
-      <notes>
-        <note category="location">src/app/data/projects.ts:40</note>
-      </notes>
-      <segment>
-        <source>Buscador de todas las películas en las que Owen Wilson dice «wow», con filtros por título, año y número de wows.</source>
-      </segment>
-    </unit>
     <unit id="project.cards.description">
       <notes>
-        <note category="location">src/app/data/projects.ts:47</note>
+        <note category="location">src/app/data/projects.ts:40</note>
       </notes>
       <segment>
         <source>Generador de tarjetas de visita personalizadas: rellenas tus datos, descargas la tarjeta y la compartes en redes sociales.</source>
@@ -91,7 +219,7 @@
     </unit>
     <unit id="project.openspaces.description">
       <notes>
-        <note category="location">src/app/data/projects.ts:54</note>
+        <note category="location">src/app/data/projects.ts:47</note>
       </notes>
       <segment>
         <source>Web responsive para Open Spaces, una tienda online de productos para organizar el hogar.</source>
@@ -265,6 +393,47 @@
         <source> Estaré encantada de recibir nuevas oportunidades profesionales para poder seguir creciendo como desarrolladora. </source>
       </segment>
     </unit>
+    <unit id="experience.eyebrow">
+      <notes>
+        <note category="location">src/app/sections/experience/experience.html:4,5</note>
+      </notes>
+      <segment>
+        <source>Experiencia</source>
+      </segment>
+    </unit>
+    <unit id="experience.title">
+      <notes>
+        <note category="location">src/app/sections/experience/experience.html:6,8</note>
+      </notes>
+      <segment>
+        <source> Dónde he trabajado </source>
+      </segment>
+    </unit>
+    <unit id="experience.lead">
+      <notes>
+        <note category="location">src/app/sections/experience/experience.html:9,12</note>
+      </notes>
+      <segment>
+        <source> Más de cuatro años construyendo componentes, pasando diseños a código y cuidando que las interfaces funcionen para todo el mundo. </source>
+      </segment>
+    </unit>
+    <unit id="experience.clientsLabel">
+      <notes>
+        <note category="location">src/app/sections/experience/experience.html:27</note>
+      </notes>
+      <segment>
+        <source>Clientes y sectores</source>
+      </segment>
+    </unit>
+    <unit id="projects.techLabel">
+      <notes>
+        <note category="location">src/app/sections/experience/experience.html:42</note>
+        <note category="location">src/app/sections/projects/projects.html:45</note>
+      </notes>
+      <segment>
+        <source>Tecnologías</source>
+      </segment>
+    </unit>
     <unit id="footer.copy">
       <notes>
         <note category="location">src/app/sections/footer/footer.ts:9,10</note>
@@ -313,9 +482,17 @@
         <source>Sobre mí</source>
       </segment>
     </unit>
-    <unit id="nav.projects">
+    <unit id="nav.experience">
       <notes>
         <note category="location">src/app/sections/header/header.ts:28</note>
+      </notes>
+      <segment>
+        <source>Experiencia</source>
+      </segment>
+    </unit>
+    <unit id="nav.projects">
+      <notes>
+        <note category="location">src/app/sections/header/header.ts:29</note>
       </notes>
       <segment>
         <source>Proyectos</source>
@@ -323,7 +500,7 @@
     </unit>
     <unit id="nav.skills">
       <notes>
-        <note category="location">src/app/sections/header/header.ts:29</note>
+        <note category="location">src/app/sections/header/header.ts:30</note>
       </notes>
       <segment>
         <source>Skills</source>
@@ -331,7 +508,7 @@
     </unit>
     <unit id="nav.contact">
       <notes>
-        <note category="location">src/app/sections/header/header.ts:30</note>
+        <note category="location">src/app/sections/header/header.ts:31</note>
       </notes>
       <segment>
         <source>Contacto</source>
@@ -339,7 +516,7 @@
     </unit>
     <unit id="theme.toLight">
       <notes>
-        <note category="location">src/app/sections/header/header.ts:33</note>
+        <note category="location">src/app/sections/header/header.ts:34</note>
       </notes>
       <segment>
         <source>Cambiar a tema claro</source>
@@ -347,7 +524,7 @@
     </unit>
     <unit id="theme.toDark">
       <notes>
-        <note category="location">src/app/sections/header/header.ts:34</note>
+        <note category="location">src/app/sections/header/header.ts:35</note>
       </notes>
       <segment>
         <source>Cambiar a tema oscuro</source>
@@ -423,14 +600,6 @@
       </notes>
       <segment>
         <source>Filtrar proyectos por tecnología</source>
-      </segment>
-    </unit>
-    <unit id="projects.techLabel">
-      <notes>
-        <note category="location">src/app/sections/projects/projects.html:45</note>
-      </notes>
-      <segment>
-        <source>Tecnologías</source>
       </segment>
     </unit>
     <unit id="projects.code">

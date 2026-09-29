@@ -8,7 +8,7 @@ export interface Project {
 
 export const PROJECTS: Project[] = [
   {
-    title: 'Waveless',
+    title: 'Waveless-web',
     description: $localize`:@@project.waveless.description:Home de una web de una agencia de viajes con actividades turísticas.`,
     image: 'images/waveless.webp',
     tech: ['Angular', 'TypeScript', 'Sass', 'Responsive'],
@@ -34,13 +34,6 @@ export const PROJECTS: Project[] = [
     image: 'images/bubble.webp',
     tech: ['HTML', 'Sass', 'Responsive'],
     codeUrl: 'https://github.com/romerogarcia/Bubble',
-  },
-  {
-    title: "Owen Wilson's WOW",
-    description: $localize`:@@project.owen.description:Buscador de todas las películas en las que Owen Wilson dice «wow», con filtros por título, año y número de wows.`,
-    image: 'images/owen-wilson-wow.webp',
-    tech: ['React', 'JavaScript', 'CSS', 'API'],
-    codeUrl: 'https://github.com/romerogarcia/Owen-Wilson-s-WOW',
   },
   {
     title: 'Awesome Profile Cards',

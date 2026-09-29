@@ -550,5 +550,203 @@
         <target>The technologies and tools I work with every day.</target>
       </segment>
     </unit>
+    <unit id="nav.experience">
+      <notes>
+        <note category="location">src/app/sections/header/header.ts:28</note>
+      </notes>
+      <segment>
+        <source>Experiencia</source>
+        <target>Experience</target>
+      </segment>
+    </unit>
+    <unit id="experience.eyebrow">
+      <notes>
+        <note category="location">src/app/sections/experience/experience.html:4,5</note>
+      </notes>
+      <segment>
+        <source>Experiencia</source>
+        <target>Experience</target>
+      </segment>
+    </unit>
+    <unit id="experience.title">
+      <notes>
+        <note category="location">src/app/sections/experience/experience.html:6,8</note>
+      </notes>
+      <segment>
+        <source> Dónde he trabajado </source>
+        <target>Where I’ve worked</target>
+      </segment>
+    </unit>
+    <unit id="experience.lead">
+      <notes>
+        <note category="location">src/app/sections/experience/experience.html:9,12</note>
+      </notes>
+      <segment>
+        <source> Más de cuatro años construyendo componentes, pasando diseños a código y cuidando que las interfaces funcionen para todo el mundo. </source>
+        <target>Over four years building components, turning designs into code and making sure interfaces work for everyone.</target>
+      </segment>
+    </unit>
+    <unit id="experience.clientsLabel">
+      <notes>
+        <note category="location">src/app/sections/experience/experience.html:27</note>
+      </notes>
+      <segment>
+        <source>Clientes y sectores</source>
+        <target>Clients and sectors</target>
+      </segment>
+    </unit>
+    <unit id="exp.vass.role">
+      <notes>
+        <note category="location">src/app/data/experience.ts:16</note>
+      </notes>
+      <segment>
+        <source>Desarrolladora Frontend</source>
+        <target>Frontend Developer</target>
+      </segment>
+    </unit>
+    <unit id="exp.vass.period">
+      <notes>
+        <note category="location">src/app/data/experience.ts:18</note>
+      </notes>
+      <segment>
+        <source>Oct 2023 – Sep 2026</source>
+        <target>Oct 2023 – Sep 2026</target>
+      </segment>
+    </unit>
+    <unit id="exp.vass.summary">
+      <notes>
+        <note category="location">src/app/data/experience.ts:19</note>
+      </notes>
+      <segment>
+        <source>Mi etapa más larga y en la que más he crecido. He trabajado en proyectos de banca para el Banco de España y Unicaja, y para clientes de otros sectores como Mapfre y Repsol, siempre con Angular, Adobe Experience Manager y la accesibilidad en el centro.</source>
+        <target>My longest role and the one where I’ve grown the most. I’ve worked on banking projects for the Bank of Spain and Unicaja, and for clients in other sectors such as Mapfre and Repsol, always with Angular, Adobe Experience Manager and accessibility at the core.</target>
+      </segment>
+    </unit>
+    <unit id="exp.vass.h1">
+      <notes>
+        <note category="location">src/app/data/experience.ts:26</note>
+      </notes>
+      <segment>
+        <source>He creado, mantenido y hecho evolucionar componentes en Angular (v16–v20) con Angular Material, dentro de un monorepo Nx en el que también ayudé a definir la arquitectura y los límites entre librerías.</source>
+        <target>Built, maintained and evolved Angular components (v16–v20) with Angular Material inside an Nx monorepo, where I also helped define the architecture and the boundaries between libraries.</target>
+      </segment>
+    </unit>
+    <unit id="exp.vass.h2">
+      <notes>
+        <note category="location">src/app/data/experience.ts:27</note>
+      </notes>
+      <segment>
+        <source>He revisado la accesibilidad de componentes e interfaces para auditorías y demos con cliente, asegurando que cumplen WCAG 2.2 (AA).</source>
+        <target>Reviewed the accessibility of components and interfaces for audits and client demos, making sure they meet WCAG 2.2 (AA).</target>
+      </segment>
+    </unit>
+    <unit id="exp.vass.h3">
+      <notes>
+        <note category="location">src/app/data/experience.ts:28</note>
+      </notes>
+      <segment>
+        <source>Implementé la accesibilidad desde cero en todos los componentes de la web de un cliente bancario.</source>
+        <target>Implemented accessibility from scratch across every component of a banking client’s website.</target>
+      </segment>
+    </unit>
+    <unit id="exp.vass.h4">
+      <notes>
+        <note category="location">src/app/data/experience.ts:29</note>
+      </notes>
+      <segment>
+        <source>He extendido y personalizado los Core Components de Adobe Experience Manager (AEM).</source>
+        <target>Extended and customised Adobe Experience Manager (AEM) Core Components.</target>
+      </segment>
+    </unit>
+    <unit id="exp.vass.h5">
+      <notes>
+        <note category="location">src/app/data/experience.ts:30</note>
+      </notes>
+      <segment>
+        <source>Desarrollé de principio a fin una web nueva para un cliente inmobiliario con Angular y AEM: componentes, páginas y toda la lógica.</source>
+        <target>Built a brand-new website end to end for a real estate client with Angular and AEM: components, pages and all the logic.</target>
+      </segment>
+    </unit>
+    <unit id="exp.vass.h6">
+      <notes>
+        <note category="location">src/app/data/experience.ts:31</note>
+      </notes>
+      <segment>
+        <source>He pasado diseños de Figma a código siguiendo BEM y Atomic Design, y he localizado y resuelto errores en los entornos del cliente.</source>
+        <target>Turned Figma designs into code following BEM and Atomic Design, and tracked down and fixed bugs in the client’s environments.</target>
+      </segment>
+    </unit>
+    <unit id="exp.ancert.role">
+      <notes>
+        <note category="location">src/app/data/experience.ts:37</note>
+      </notes>
+      <segment>
+        <source>Desarrolladora Frontend y maquetadora web</source>
+        <target>Frontend Developer &amp; Web Layout Developer</target>
+      </segment>
+    </unit>
+    <unit id="exp.ancert.period">
+      <notes>
+        <note category="location">src/app/data/experience.ts:39</note>
+      </notes>
+      <segment>
+        <source>Sep 2022 – Oct 2023</source>
+        <target>Sep 2022 – Oct 2023</target>
+      </segment>
+    </unit>
+    <unit id="exp.ancert.summary">
+      <notes>
+        <note category="location">src/app/data/experience.ts:40</note>
+      </notes>
+      <segment>
+        <source>Mi primer trabajo como desarrolladora, justo al salir del bootcamp de Adalab. Aquí descubrí lo mucho que me gustan los componentes reutilizables y la accesibilidad.</source>
+        <target>My first job as a developer, right after the Adalab bootcamp. This is where I found out how much I enjoy reusable components and accessibility.</target>
+      </segment>
+    </unit>
+    <unit id="exp.ancert.h1">
+      <notes>
+        <note category="location">src/app/data/experience.ts:42</note>
+      </notes>
+      <segment>
+        <source>Participé en la creación de la librería de componentes del Portal Notarial del Ciudadano: maquetación, desarrollo y accesibilidad de cada pieza.</source>
+        <target>Helped build the component library for the Portal Notarial del Ciudadano (the notaries’ citizen portal): layout, development and accessibility for every piece.</target>
+      </segment>
+    </unit>
+    <unit id="exp.ancert.h2">
+      <notes>
+        <note category="location">src/app/data/experience.ts:43</note>
+      </notes>
+      <segment>
+        <source>Trasladé los diseños de Figma a interfaces funcionales y responsive con HTML, Sass, Flexbox, CSS Grid, Tailwind y Bootstrap.</source>
+        <target>Turned Figma designs into working, responsive interfaces with HTML, Sass, Flexbox, CSS Grid, Tailwind and Bootstrap.</target>
+      </segment>
+    </unit>
+    <unit id="exp.ancert.h3">
+      <notes>
+        <note category="location">src/app/data/experience.ts:44</note>
+      </notes>
+      <segment>
+        <source>Revisé la accesibilidad de la web (WCAG 2.2 AA) y corregí errores y bugs de las interfaces, también durante el rediseño completo del portal.</source>
+        <target>Reviewed the site’s accessibility (WCAG 2.2 AA) and fixed interface errors and bugs, including during the portal’s full redesign.</target>
+      </segment>
+    </unit>
+    <unit id="exp.ancert.h4">
+      <notes>
+        <note category="location">src/app/data/experience.ts:45</note>
+      </notes>
+      <segment>
+        <source>Creé e integré componentes en React y Liferay, y maqueté emails responsive.</source>
+        <target>Built and integrated components in React and Liferay, and coded responsive emails.</target>
+      </segment>
+    </unit>
+    <unit id="exp.vass.h7">
+      <notes>
+        <note category="location">src/app/data/experience.ts:32</note>
+      </notes>
+      <segment>
+        <source>He colaborado de cerca con el equipo de backend, trabajando también con Java y bases de datos para integrar el front con los servicios.</source>
+        <target>Worked closely with the backend team, also getting hands-on with Java and databases to integrate the frontend with the services.</target>
+      </segment>
+    </unit>
   </file>
 </xliff>

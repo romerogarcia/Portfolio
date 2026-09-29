@@ -18,7 +18,8 @@ export type IconName =
   | 'a11y'
   | 'check'
   | 'cms'
-  | 'loop';
+  | 'loop'
+  | 'coffee';
 
 /** Small inline SVG icon set (stroke icons, 24x24). */
 @Component({
@@ -104,6 +105,10 @@ export type IconName =
         @case ('loop') {
           <path d="M20 11a8 8 0 0 0-14.9-4M4 13a8 8 0 0 0 14.9 4" />
           <path d="M4 3v4h4M20 21v-4h-4" />
+        }
+        @case ('coffee') {
+          <path d="M4 9h13v5a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5V9z" />
+          <path d="M17 11h1.5a2.5 2.5 0 0 1 0 5H17M8 2.5v3M12 2.5v3" />
         }
         @case ('close') {
           <path d="M6 6l12 12M18 6 6 18" />

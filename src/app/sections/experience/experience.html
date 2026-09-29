@@ -1,0 +1,52 @@
+<section id="experience" class="section" aria-labelledby="experience-title">
+  <div class="container">
+    <div appReveal>
+      <span class="eyebrow" i18n="@@experience.eyebrow">Experiencia</span>
+      <h2 id="experience-title" class="section-title" i18n="@@experience.title">
+        Dónde he trabajado
+      </h2>
+      <p class="section-lead" i18n="@@experience.lead">
+        Más de cuatro años construyendo componentes, pasando diseños a código y cuidando que las
+        interfaces funcionen para todo el mundo.
+      </p>
+    </div>
+
+    <ol class="timeline">
+      @for (job of jobs; track job.id; let i = $index) {
+        <li class="job" appReveal [revealDelay]="i * 120">
+          <div class="meta">
+            <p class="period">{{ job.period }}</p>
+            <p class="company">{{ job.company }}</p>
+          </div>
+
+          <article class="card" [attr.aria-labelledby]="'job-' + job.id">
+            <h3 [id]="'job-' + job.id">{{ job.role }}</h3>
+            <p class="company-inline">{{ job.company }} · {{ job.period }}</p>
+
+            @if (job.clients?.length) {
+              <ul class="clients" aria-label="Clientes y sectores" i18n-aria-label="@@experience.clientsLabel">
+                @for (client of job.clients; track client) {
+                  <li>{{ client }}</li>
+                }
+              </ul>
+            }
+
+            <p class="summary">{{ job.summary }}</p>
+
+            <ul class="highlights">
+              @for (item of job.highlights; track item) {
+                <li>{{ item }}</li>
+              }
+            </ul>
+
+            <ul class="tags" aria-label="Tecnologías" i18n-aria-label="@@projects.techLabel">
+              @for (tag of job.tech; track tag) {
+                <li>{{ tag }}</li>
+              }
+            </ul>
+          </article>
+        </li>
+      }
+    </ol>
+  </div>
+</section>
