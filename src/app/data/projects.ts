@@ -23,9 +23,9 @@ export const PROJECTS: Project[] = [
   },
   {
     title: $localize`:@@project.magister.title:Matrícula Magister`,
-    description: $localize`:@@project.magister.description:Proceso de matrícula para una plataforma educativa, academia especializada en formación online y presencial. Un formulario por pasos maquetado a partir del diseño.`,
+    description: $localize`:@@project.magister.description:Proceso de matrícula para una plataforma educativa, academia especializada en formación online y presencial. Un formulario por pasos maquetado a partir del diseño. Refactorización y migración de la web desde React a Angular v22`,
     image: 'images/magister.webp',
-    tech: ['React', 'JavaScript', 'Sass'],
+    tech: ['Angular', 'TypeScript', 'Sass', 'Responsive'],
     codeUrl: 'https://github.com/romerogarcia/Reto-Frontend-Magister',
   },
   {
