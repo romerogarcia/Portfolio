@@ -7,12 +7,12 @@
       color-mix(in srgb, var(--highlight) 45%, transparent),
       transparent 55%
     ),
-    #2f5249;
+    linear-gradient(135deg, var(--dusk) 0%, var(--dusk-2) 60%, #4d3f84 100%);
   color: #fff;
   text-align: center;
 
   .eyebrow {
-    color: #cfe5de;
+    color: var(--peach);
   }
 
   h2 {
@@ -23,7 +23,7 @@
   p {
     max-width: 48ch;
     margin: 0 auto 32px;
-    color: #d9e6e2;
+    color: var(--lavender);
   }
 }
 
@@ -36,7 +36,7 @@
 
 .btn--light {
   background: #fff;
-  color: #2f5249;
+  color: var(--dusk-2);
   overflow-wrap: anywhere;
 }
 

@@ -117,6 +117,19 @@
   padding-top: 6px;
 }
 
+/* Quiet outline so the six cards don't compete with the main CTA */
+.btn--neutral {
+  border-color: color-mix(in srgb, var(--ink) 22%, transparent);
+  background: transparent;
+  color: var(--ink);
+
+  &:hover {
+    border-color: var(--ink);
+    background: var(--ink);
+    color: var(--bg);
+  }
+}
+
 .empty {
   color: var(--ink-soft);
 }

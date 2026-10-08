@@ -1,17 +1,26 @@
 /* ---------- Design tokens ---------- */
+/* Palette taken from the hero illustration, kept calm: the muted violet of
+   the shaded trees, the lavender of the stone wall, dusk indigo and a touch
+   of peach sunlight. Neutral backgrounds so the image carries the colour. */
 :root {
   color-scheme: light;
-  --bg: #f8f6f1;
+  --bg: #f8f7fa;
   --surface: #ffffff;
-  --surface-2: #efece4;
-  --ink: #1d2224;
-  --ink-soft: #5a6366;
-  --line: #e2ded4;
-  --accent: #3f6b62;
+  --surface-2: #efedf4;
+  --ink: #1e1a30;
+  --ink-soft: #5a566b;
+  --line: #e3e0ea;
+  --accent: #54418a;
   --accent-ink: #ffffff;
-  --accent-soft: #dfeae6;
-  --highlight: #7c76b3;
-  --shadow: 0 1px 2px rgb(29 34 36 / 6%), 0 8px 24px rgb(29 34 36 / 8%);
+  --accent-soft: #ebe7f4;
+  --highlight: #bdb5da;
+  --shadow: 0 1px 2px rgb(30 26 48 / 6%), 0 8px 24px rgb(30 26 48 / 8%);
+
+  /* Fixed brand tones (same in both themes) */
+  --dusk: #1f1838;
+  --dusk-2: #3a2e66;
+  --peach: #f2caab;
+  --lavender: #e2def0;
 
   --font-display: 'Fraunces', Georgia, serif;
   --font-body: 'Manrope', system-ui, -apple-system, 'Segoe UI', sans-serif;
@@ -25,16 +34,16 @@
 
 :root[data-theme='dark'] {
   color-scheme: dark;
-  --bg: #111514;
-  --surface: #181d1c;
-  --surface-2: #1f2524;
-  --ink: #ecefec;
-  --ink-soft: #a3aeab;
-  --line: #2b3331;
-  --accent: #8cc2b2;
-  --accent-ink: #0f1413;
-  --accent-soft: #1f3530;
-  --highlight: #b3aee6;
+  --bg: #121020;
+  --surface: #19162b;
+  --surface-2: #211d36;
+  --ink: #eeecf4;
+  --ink-soft: #aaa6bd;
+  --line: #2e2944;
+  --accent: #b4a7e6;
+  --accent-ink: #16122a;
+  --accent-soft: #28233f;
+  --highlight: #8f84c4;
   --shadow: 0 1px 2px rgb(0 0 0 / 30%), 0 12px 32px rgb(0 0 0 / 35%);
 }
 

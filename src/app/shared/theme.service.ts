@@ -13,7 +13,7 @@ export class ThemeService {
       this.document.documentElement.dataset['theme'] = theme;
       this.document
         .querySelector('meta[name="theme-color"]')
-        ?.setAttribute('content', theme === 'dark' ? '#111514' : '#f8f6f1');
+        ?.setAttribute('content', theme === 'dark' ? '#121020' : '#f8f7fa');
       try {
         localStorage.setItem('theme', theme);
       } catch {
